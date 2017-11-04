@@ -8,7 +8,6 @@ android {
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
@@ -20,10 +19,8 @@ android {
 
 dependencies {
     implementation 'com.android.support:appcompat-v7:26.1.0'
-
     // Mosby
     implementation 'com.hannesdorfmann.mosby3:mvp:3.0.4'
     implementation 'com.hannesdorfmann.mosby3:mvp-nullobject-presenter:3.0.4'
     //View
-
 }
