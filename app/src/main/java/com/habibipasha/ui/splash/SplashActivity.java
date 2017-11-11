@@ -31,5 +31,6 @@ public class SplashActivity extends BaseActivity<SplashView, SplashPresenter> im
     @Override
     public void openNext() {
         startActivity(new Intent(this, MainActivity.class));
+        finish();
     }
 }

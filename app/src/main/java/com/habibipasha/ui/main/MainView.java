@@ -8,6 +8,12 @@ import com.hannesdorfmann.mosby3.mvp.MvpView;
 import java.util.ArrayList;
 import java.util.List;
 
-public interface MainView extends MvpView, BaseView {
+public interface MainView extends  BaseView {
 
+    void showAllRetsept(ArrayList<Restepti> resteptiList);
+    void showFavoritRetsept(ArrayList<Restepti> resteptiList);
+    void showMyRetsept(ArrayList<Restepti> resteptiList);
+
+    void updateAdapter();
 }
+
